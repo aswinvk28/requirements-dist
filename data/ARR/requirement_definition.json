@@ -1,0 +1,179 @@
+[
+    {
+        "_id": 0,
+        "name": "CRUD of Show",
+        "abstraction": ["FUNCTION"],
+        "_ids": [6, 16, 26]
+    },
+    {
+        "_id": 1,
+        "name": "CRUD of Performance",
+        "abstraction": ["FUNCTION"],
+        "requirements_ids": [0],
+        "_ids": [7, 17, 30, 31]
+    },
+    {
+        "_id": 2,
+        "name": "CRUD of Artiste",
+        "abstraction": ["FUNCTION"],
+        "_ids": [15]
+    },
+    {
+        "_id": 3,
+        "name": "CRUD of Venue",
+        "abstraction": ["FUNCTION"],
+        "_ids": [8, 18, 19]
+    },
+    {
+        "_id": 4,
+        "name": "CRUD of Review",
+        "abstraction": ["FUNCTION"],
+        "_ids": [10, 20, 21, 22]
+    },
+    {
+        "_id": 5,
+        "name": "CRUD of Press Release",
+        "abstraction": ["FUNCTION"],
+        "_ids": [11, 23, 24, 25]
+    },
+    {
+        "_id": 6,
+        "name": "Assign CRUDP of Show Permissions to Admin",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 7,
+        "name": "Assign CRUDP of Performance Permissions to Admin",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 8,
+        "name": "Assign CRUDP of Artiste Permissions to Admin",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 9,
+        "name": "Assign CRUDP of Venue Permissions to Admin",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 10,
+        "name": "Assign CRUD of Review Permissions to Admin",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 11,
+        "name": "Assign CRUD of Press Release Permissions to Admin",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 12,
+        "name": "The system shall show the social networking icons and buttons for sharing and liking the web pages including Facebook, Twitter and Google Plus",
+        "abstraction": ["FUNCTION"]
+    },
+    {
+        "_id": 13,
+        "name": "The admin shall be able to choose the show to be displayed in front page",
+        "abstraction": ["FUNCTION"],
+        "requirements_ids": [2]
+    },
+    {
+        "_id": 14,
+        "name": "The admin shall be able to choose the headline act for each show",
+        "abstraction": ["FUNCTION"],
+        "requirements_ids": [10]
+    },
+    {
+        "_id": 15,
+        "name": "Reference an artiste when creating the press quotations",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 16,
+        "name": "Reference a show when creating the press quotations",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 17,
+        "name": "Reference a performance when creating the press quotations",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 18,
+        "name": "Create/Update/Read a venue with HTML description",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 19,
+        "name": "Create/Update/Read a venue with coordinates",
+        "abstraction": ["COMPONENT"],
+        "requirements_ids": [1]
+    },
+    {
+        "_id": 20,
+        "name": "Reference a show when creating a review",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 21,
+        "name": "Reference an artiste when creating a review",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 22,
+        "name": "Reference a performance when creating a review",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 23,
+        "name": "Reference a show when creating a press release",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 24,
+        "name": "Reference an artiste when creating a press release",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 25,
+        "name": "Reference a performance when creating a press release",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 26,
+        "name": "Reference a venue when creating a show",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 27,
+        "name": "Add/Update Meta Tags for SEO",
+        "abstraction": ["FUNCTION"],
+        "requirements_ids": [3, 4, 5, 6, 7, 8]
+    },
+    {
+        "_id": 28,
+        "name": "The system shall display respective Meta tags",
+        "abstraction": ["FUNCTION"]
+    },
+    {
+        "_id": 29,
+        "name": "CRUD of Default Page",
+        "abstraction": ["FUNCTION"]
+    },
+    {
+        "_id": 30,
+        "name": "Reference a show when creating a performance",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 31,
+        "name": "Reference an artiste when creating a performance",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 32,
+        "name": "CRUD of Press Quotations with quote body, quote agency and quote author",
+        "abstraction": ["FUNCTION"],
+        "_ids": [15, 16, 17]
+    }
+]

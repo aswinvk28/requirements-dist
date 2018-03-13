@@ -1,0 +1,158 @@
+[
+    {
+        "_id": 0,
+        "name": "View Home Page",
+        "http_method": "GET",
+        "url": "/",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 1, 2, 3, 4, 5],
+            "concept_ids": [0, 1, 3, 5, 6, 7, 8, 9, 10, 11, 12],
+            "requirement_definition_ids": [0, 1, 2, 3, 6, 7, 8, 9, 12, 13, 14, 15, 26, 27, 28, 32],
+            "requirements_ids": [0, 2, 7, 9, 10]
+        }
+    },
+    {
+        "_id": 1,
+        "name": "View About Us Page",
+        "http_method": "GET",
+        "url": "/about-us",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 4, 5],
+            "concept_ids": [8, 9, 11],
+            "requirement_definition_ids": [27, 29],
+            "requirements_ids": [8]
+        }
+    },
+    {
+        "_id": 2,
+        "name": "View Contact Us Page",
+        "http_method": "GET",
+        "url": "/contact-us",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 4, 5],
+            "concept_ids": [8, 9, 11],
+            "requirement_definition_ids": [27, 29],
+            "requirements_ids": [8]
+        }
+    },
+    {
+        "_id": 3,
+        "name": "View Venue Page",
+        "http_method": "GET",
+        "url": "/venue",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 4, 5],
+            "concept_ids": [2, 3, 6, 7, 8, 9, 11],
+            "requirement_definition_ids": [3, 9, 12, 18, 27, 28],
+            "requirements_ids": [8]
+        }
+    },
+    {
+        "_id": 4,
+        "name": "View the Venue",
+        "http_method": "GET",
+        "url": "/venue/%",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 4, 5],
+            "concept_ids": [2, 3, 6, 7, 8, 9, 11],
+            "requirement_definition_ids": [3, 9, 12, 18, 19, 27, 28],
+            "requirements_ids": [1, 6]
+        }
+    },
+    {
+        "_id": 5,
+        "name": "View Shows Page",
+        "http_method": "GET",
+        "url": "/shows",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 2, 4, 5],
+            "concept_ids": [0, 6, 7, 8, 9, 11],
+            "requirement_definition_ids": [0, 6, 12, 26, 27, 28],
+            "requirements_ids": [8]
+        }
+    },
+    {
+        "_id": 6,
+        "name": "View the Show",
+        "http_method": "GET",
+        "url": "/shows/%",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 1, 3, 4, 5],
+            "concept_ids": [0, 1, 3, 6, 7, 8, 9, 10, 11],
+            "requirement_definition_ids": [0, 1, 2, 3, 6, 7, 8, 9, 12, 26, 27, 28, 30, 31],
+            "requirements_ids": [3]
+        }
+    },
+    {
+        "_id": 7,
+        "name": "View Artistes Page",
+        "http_method": "GET",
+        "url": "/artistes",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 4, 5],
+            "concept_ids": [1, 6, 7, 8, 9, 10, 11],
+            "requirement_definition_ids": [2, 8, 12, 27, 28],
+            "requirements_ids": [8]
+        }
+    },
+    {
+        "_id": 8,
+        "name": "View the Artiste",
+        "http_method": "GET",
+        "url": "/artistes/%",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 1, 3, 4, 5],
+            "concept_ids": [1, 5, 6, 7, 8, 9, 10, 11],
+            "requirement_definition_ids": [2, 8, 12, 15, 27, 28, 32],
+            "requirements_ids": [4]
+        }
+    },
+    {
+        "_id": 9,
+        "name": "View the Performance",
+        "http_method": "GET",
+        "url": "/performances/%",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1],
+            "theme_ids": [0, 1, 3, 4, 5],
+            "concept_ids": [0, 1, 3, 6, 7, 8, 9, 10, 11],
+            "requirement_definition_ids": [0, 1, 2, 3, 6, 7, 8, 9, 12, 26, 27, 28, 30, 31],
+            "requirements_ids": [0, 5]
+        }
+    },
+    {
+        "_id": 10,
+        "name": "View the Review for the Show",
+        "http_method": "GET",
+        "url": "/review/%",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1, 2],
+            "theme_ids": [0, 4, 5],
+            "concept_ids": [0, 2, 4, 6, 7, 8, 9, 11],
+            "requirement_definition_ids": [0, 4, 6, 10, 12, 20, 26, 27, 28],
+            "requirements_ids": [8]
+        }
+    },
+    {
+        "_id": 11,
+        "name": "View the Press Release for the Show",
+        "http_method": "GET",
+        "url": "/pressrelease/%",
+        "mandatory_requirements": {
+            "vision_ids": [0, 1, 2],
+            "theme_ids": [0, 4, 5],
+            "concept_ids": [0, 2, 4, 6, 7, 8, 9, 11],
+            "requirement_definition_ids": [0, 5, 6, 11, 12, 23, 26, 27, 28],
+            "requirements_ids": [8]
+        }
+    }
+]

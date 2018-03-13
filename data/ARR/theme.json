@@ -1,0 +1,44 @@
+[
+    {
+        "_id": 0,
+        "name": "An atmosphere of Night Club",
+        "abstraction": ["PRODUCT"],
+        "concept_ids": [12]
+    },
+    {
+        "_id": 1,
+        "name": "Website shall contain Images and Videos to describe the Stand-up Venue",
+        "abstraction": ["PRODUCT"],
+        "concept_ids": [10]
+    },
+    {
+        "_id": 2,
+        "name": "Website shall display upcoming/future shows",
+        "abstraction": ["FUNCTION"],
+        "concept_ids": [0, 12]
+    },
+    {
+        "_id": 3,
+        "name": "Website shall display the line-up of performers",
+        "abstraction": ["FUNCTION"],
+        "concept_ids": [1, 12]
+    },
+    {
+        "_id": 4,
+        "name": "Website SEO and Marketing",
+        "abstraction": ["PRODUCT"],
+        "concept_ids": [8, 9]
+    },
+    {
+        "_id": 5,
+        "name": "Website Sharing",
+        "abstraction": ["PRODUCT"],
+        "concept_ids": [11]
+    },
+    {
+        "_id": 6,
+        "name": "Website shall display reviews and press releases for the shows",
+        "abstraction": ["PRODUCT"],
+        "concept_ids": [2, 4]
+    }
+]

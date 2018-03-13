@@ -1,0 +1,57 @@
+[
+    {
+        "_id": 0,
+        "name": "The admin shall be able to provide the order of performance when creating / updating a performance",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 1,
+        "name": "The system shall show the map of the location of the venue",
+        "abstraction": ["FEATURE"]
+    },
+    {
+        "_id": 2,
+        "name": "The system shall show the promoted shows in the front page",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 3,
+        "name": "The admin shall be able to provide the Meta tags for shows",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 4,
+        "name": "The admin shall be able to provide the Meta tags for artistes",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 5,
+        "name": "The admin shall be able to provide the Meta tags for performances",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 6,
+        "name": "The admin shall be able to provide the Meta tags for venues",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 7,
+        "name": "The admin shall be able to provide the Meta Tags for Front Page",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 8,
+        "name": "The admin shall be able to provide the Meta Tags for Default Pages",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 9,
+        "name": "The system shall show the line-up of performers for each promoted show in the front page",
+        "abstraction": ["COMPONENT"]
+    },
+    {
+        "_id": 10,
+        "name": "The system shall prioritize the headline act for a show when displaying the performers in the front page",
+        "abstraction": ["PRODUCT"]
+    }
+]

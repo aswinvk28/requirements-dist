@@ -1,0 +1,26 @@
+{
+  "name": "aswin/product-requirements-abstraction",
+  "version": "0.0.0",
+  "authors": [
+    "Aswin Vijayakumar <aswinvk28@gmail.com>"
+  ],
+  "dependencies": {
+    "underscore-amd": "^1.5.2",
+    "backbone-amd": "^1.1.0",
+    "requirejs": "^2.1.11",
+    "jquery": "^2.1.0"
+  },
+  "description": "Product Requirements Abstraction",
+  "main": "app.js",
+  "keywords": [
+    "requirements"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
